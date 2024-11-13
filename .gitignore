@@ -1,0 +1,40 @@
+gitignore
+# Go binary files
+/bin/
+/obj/
+
+# Compiled binary
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build cache, and coverage files
+*.test
+*.out
+*.prof
+*.cov
+
+# Vendor directory (if using Go modules)
+vendor/
+
+# Go modules
+go.sum
+
+# IDE and editor specific files
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# GoLand
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
